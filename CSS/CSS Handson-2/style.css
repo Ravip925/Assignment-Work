@@ -79,7 +79,7 @@ body{
 .p4{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bolder;
-    color: #112B3C;
+    color: #535a5f;
     text-align: center;
     font-size: large;
     margin-top: 10%;
@@ -102,8 +102,8 @@ body{
 .form{
     border: 20px dashed; color: #733C3C;
     background-color: #F9EBC8;
-    width: 38%;
-    height: 120vh;
+    width: 37%;
+    height: 840px;
     box-sizing: border-box;
     text-align: center;
     position: absolute;
@@ -129,7 +129,8 @@ body{
 .hr{
     height: 3px;
     border: none;
-    width: 103%;
+    width: 101%;
+    margin-top: -1px;
     background-color: #733C3C;
 }
 .lable{
@@ -209,7 +210,7 @@ body{
 .menu{
     width: 35%;
     height: 12vh;
-    background-color: #36AE7C;
+    background-color: #1cc806;
     border: 10px outset #c2bdb7;
     border-radius: 60px;
     position: absolute;
@@ -234,12 +235,12 @@ body{
     margin-top: 75%;  
 }
 .veg{
-    border: 3px outset rgb(49, 24, 99);
+    border: 3px solid rgb(0, 0, 0);
     height: 350px;
     width: 350px;
     margin: 40px;
     color: rgb(9, 9, 70);
-    background-color: #55D8C1;
+    background-color: #02ebd4;
     border-radius: 30px;
     box-sizing: border-box;
 }
@@ -251,6 +252,11 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+.hr4{
+    height: 2.5px;
+    border: none;
+    background-color: #380e0e;
 }
 ul{
     margin: 0px;
