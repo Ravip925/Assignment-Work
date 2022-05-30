@@ -260,11 +260,13 @@ body{
 }
 ul{
     margin: 0px;
-    text-align:center;
     margin-top: 25px;
     font-size: 22px;
     line-height: 25px;
     
+}
+li{
+    padding-left: 75px;
 }
 h2{
     font-weight: bolder;
