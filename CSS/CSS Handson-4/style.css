@@ -62,7 +62,12 @@ body{
     display: block;
     position: relative;
 }
-
+.p1{
+    font-style: italic;
+    font-size: 1.1vw;
+    line-height: 1vw;
+    font-weight: bold;
+}
 .one{
     width: 27vw;
     height: 6.8vw;
