@@ -31,17 +31,17 @@ body{
     top: 0.2vw;
 }
 .second{
-    background-color: rgb(122, 133, 172);
+    background-color: rgb(234, 187, 138);
     height: 5vw;
     margin:3vw 15vw 1vw 15vw;
     border: 0.3vw solid red;
     border-radius: 1vw;
     text-align: center;
-    position: relative;
+    text-align: center;
 }
 .unorder{
     position: absolute;
-    left: 27.5vw;
+    left: 44vw;
     
 }
 .ul1{
@@ -177,10 +177,10 @@ body{
 
 .main{
     display: grid;
-    height: 15vw;
     position: relative;
     top: 10vw;
-    
+    border: vw solid rgb(255, 255, 255);
+    gap: 0.7vw;
     
     grid-template-areas: 
      "header header menu menu right right main main"
@@ -189,39 +189,38 @@ body{
 }
 .grid1{
     grid-area: header;
-    border: 0.5vw solid rgb(0, 0, 0);
     background-color: aqua;
     text-align: center;
 }
 .grid2{
     grid-area: menu;
-    border: 0.5vw solid rgb(0, 0, 0);
     text-align: center;
     background-color: gold;
+    
 }
 .grid3{
     grid-area: footer;
-    border: 0.5vw solid rgb(0, 0, 0);
     text-align: center;
     background-color: coral;
+    
 }
 .grid4{
     grid-area: main;
-    border: 0.5vw solid rgb(0, 0, 0);
-    width: 10vw;
-    background-color: #ffe600;
+    width: 7vw;
+    background-color: #050505;
+    
+
     
 }
 .grid5{
     grid-area: right;
-    border: 0.5vw solid rgb(0, 0, 0);
     text-align: center;
-    background-color: blanchedalmond;
+    background-color: rgb(241, 202, 144);
+    
 }
 .p3{
 
     font-size: 1.7vw;
-    line-height: 1vw;
     font-weight: bold;
     color: rgb(0, 0, 0);
 }
@@ -231,21 +230,27 @@ body{
     color: rgb(0, 0, 0);
 }
 .unlst{
-    font-size: 1.3vw;
+    font-size: 1.5vw;
     font-weight: bold;
     margin: 1vw;
+    color: aliceblue;
+    text-decoration: underline;
 }
 hr{
     border: none;
     background-color: black;
     height: 0.1vw;
+    color: aliceblue;
+    background-color: aliceblue;
+    
 }
 .last{
     height: 2.5vw;
     background-color: coral;
     position: relative;
-    top: 23vw;
+    top: 12vw;
     text-align: center;
+    margin: 1vw 0vw 15vw 0vw;
     
 }
 .inner3{
