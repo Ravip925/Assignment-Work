@@ -343,7 +343,7 @@ a{
     overflow: hidden;
 }
 .head{
-    border-right: 10px ridge orange;
+    border-right: 10px ridge green;
 }
 #main2{
     width: 100%;
@@ -451,7 +451,7 @@ a{
     background-position: center;
     top: 5vw;
     right: 0;
-    animation: mysun 20s infinite linear;
+    animation: mysun 30s infinite linear;
     transform-origin: right;
     transition: 3s;
 }
