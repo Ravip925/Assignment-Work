@@ -1,16 +1,18 @@
-  *{
+   *{
     padding: 0;
     margin: 0;
 }
 body{
     background-color: rgba(236, 236, 236, 0.928);
     overflow-x: hidden;
+
 }
 .custom-shape-divider-bottom-1656312052 {
     position: absolute;
     top: 210px;
     left: 0;
-    width: 100vw;
+    right: 0;
+    width: 105vw;
     overflow: hidden;
     
 }
@@ -19,7 +21,7 @@ body{
     position: relative;
     top: -2px;
     display: block;
-    width:100vw;
+    width:105vw;
     height: 190px;
     overflow-x: hidden;
 }
@@ -32,7 +34,7 @@ nav{
     background-color: rgb(252, 236, 217);
     position: fixed;
     z-index: 3;
-    width: 100vw;
+    width: 105vw;
     height: 55px; 
     
 }
@@ -47,7 +49,8 @@ nav{
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     top: 10px;
-    left: 7vw;
+    left: 5.5vw;
+    right: 5.5vw;
 }
 ul{
     float: right;
@@ -55,7 +58,7 @@ ul{
     display: flex;
     justify-content:center;
     margin-top: 17px;
-    margin-right: 4vw;
+    margin-right: 8vw;
 }
 ul li{
     float: right;
@@ -75,7 +78,7 @@ ul li .a1:hover{
     color: orange;
 }
 .top{
-    width: 100vw;
+    width: 105vw;
     height: 395px;
     background-color: #0f8c67;
     position: relative;
@@ -169,7 +172,8 @@ a{
     z-index: 2;
     top: 31.2px;
     bottom: 24px;
-    left: 50vw;
+    left: 48vw;
+    right: 48vw;
 }
 #about{
     display: flex;
@@ -651,21 +655,22 @@ span{
 .p11{
     font-size: 2em;
     font-weight: bold;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: #0d674c;
-    width: 40vw;
+    width: 70vw;
     position: absolute;
     top: -110px;
-    left: 20.5vw;
+    left: 0;
 }
 .hr8{
-    width: 410px;
+    width: 415px;
     height: 5px;
     border: none;
     background-color: #fd8b08;
     position: absolute;
-    top: -65px;
-    left: 20.5vw;
+    top: 435px;
+    left: 34.5vw
 }
 #contacts{
     display: flex;
@@ -813,7 +818,7 @@ textarea{
 }
 footer{
     height: 80px;
-    width: 100vw;
+    width: 105vw;
     background-color: #ffdac8;
     color: #777777;
     box-sizing: border-box;
