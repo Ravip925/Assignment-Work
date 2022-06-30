@@ -839,7 +839,7 @@ footer{
     top: 150px;
 } 
 
-/* for smartphon */
+/* for smartphone */
 @media screen and (max-width: 425px) {
     
     body{
