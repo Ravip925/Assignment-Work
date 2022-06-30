@@ -659,16 +659,17 @@ span{
     font-family: Arial, Helvetica, sans-serif;
     color: #0d674c;
     width: 60vw;
-    position: absolute;
+    position: relative;
     left: 34vw;
+    top: 50px;
 }
 .hr8{
     width: 415px;
     height: 5px;
     border: none;
     background-color: #fd8b08;
-    position: absolute;
-    top: 40px;
+    position: relative;
+    top: 60px;
     left: 34vw;
     
 }
